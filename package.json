@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [source-map-support (v0.4.14)](https://github.com/evanw/node-source-map-support#readme) [![npm package](https://img.shields.io/npm/v/npmtest-source-map-support.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-source-map-support) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-source-map-support.svg)](https://travis-ci.org/npmtest/node-npmtest-source-map-support)",
+    "description": "#### test coverage for  [source-map-support (v0.4.14)](https://github.com/evanw/node-source-map-support#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-source-map-support.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-source-map-support) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-source-map-support.svg)](https://travis-ci.org/npmtest/node-npmtest-source-map-support)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "source-map-support": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
