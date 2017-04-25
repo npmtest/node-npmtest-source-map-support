@@ -1,6 +1,6 @@
 # npmtest-source-map-support
 
-#### test coverage for  [source-map-support (v0.4.14)](https://github.com/evanw/node-source-map-support#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-source-map-support.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-source-map-support) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-source-map-support.svg)](https://travis-ci.org/npmtest/node-npmtest-source-map-support)
+#### basic test coverage for  [source-map-support (v0.4.14)](https://github.com/evanw/node-source-map-support#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-source-map-support.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-source-map-support) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-source-map-support.svg)](https://travis-ci.org/npmtest/node-npmtest-source-map-support)
 
 #### Fixes stack traces for files with source maps
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-source-map-support/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-source-map-support/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-source-map-support/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-source-map-support/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-source-map-support/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-source-map-support/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-source-map-support/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-source-map-support/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-source-map-support/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-source-map-support/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-source-map-support/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-source-map-support/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
         "serve-tests": "http-server -p 1336",
         "test": "mocha"
     },
-    "version": "0.4.14"
+    "version": "0.4.14",
+    "bin": {}
 }
 ```
 
